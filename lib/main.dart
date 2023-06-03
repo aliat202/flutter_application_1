@@ -38,7 +38,7 @@ class MyApp extends StatelessWidget {
           ],
         ),
         body: Container(
-          color: Color.fromARGB(255, 206, 201, 201),
+          color: Color.fromARGB(255, 245, 154, 154),
         ),
       ),
     );
