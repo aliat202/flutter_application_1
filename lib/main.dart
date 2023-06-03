@@ -13,7 +13,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Facebook'),
+          title: Text('Facebook',
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+              )),
+          elevation: 22,
           backgroundColor: Colors.white,
           foregroundColor: Colors.blue,
           centerTitle: true,
@@ -37,8 +41,12 @@ class MyApp extends StatelessWidget {
             )
           ],
         ),
+        floatingActionButton: FloatingActionButton(
+          onPressed: () {},
+          child: Icon(Icons.add),
+        ),
         body: Container(
-          color: Color.fromARGB(255, 245, 154, 154),
+          color: Color.fromARGB(255, 228, 227, 227),
         ),
       ),
     );
